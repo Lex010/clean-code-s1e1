@@ -11,7 +11,18 @@
         "htmlWhitespaceSensitivity": "ignore",
         "tabWidth": 2,
         "printWidth": 80
-      }
+       }
+    },
+      {
+        "files": ["*.css"],
+        "options": {
+          "printWidth": 80,
+        "semi": true,
+        "trailingComma": "none",
+        "bracketSpacing": true,
+        "arrowParens": "avoid",
+        "proseWrap": "always"
+        }
     }
   ]
 }
